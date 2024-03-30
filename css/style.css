@@ -1,0 +1,846 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+.header{
+    width: 100%;
+    background-color: #000;
+    padding: 21.5px 0;
+}
+.header.sticky{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+    border-bottom: 2px solid black;
+    background-color: #808080d9;
+}
+.max-container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-fluid{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-logo img{
+    width: 134px;
+}
+.header-menu{
+    display: flex;
+    padding-right: 30px;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation ul li a{
+    padding: 0px 20px;
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: normal;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    width: 357px;
+    background-color: #FFF;
+    border-radius: 24px;
+    overflow: hidden;
+}
+.search input{
+    padding: 16px 26px;
+    border-radius: 22px 0px 0px 22px;
+    width: 100%;
+}
+.search-bax{
+    background-color: #1299C5;
+    padding: 15px 18px 11px 14px;
+}
+.fa-search{
+    color: #FFF;
+}
+.icons{
+    padding-left: 30px;
+}
+.icons ul{
+    display: flex;
+}
+.icons ul li:nth-child(3){
+    padding: 0;
+}
+.icons ul li{
+    color: #FFF;
+    padding-right: 14px;
+}
+.hero-section{
+    width: 100%;
+    position: relative;
+}
+.hero-img img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.banner-slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    border: solid 1px #fff;
+    cursor: pointer;
+    z-index: 2;
+    transition: all ease 0.5s;
+}
+
+.banner-slider .slick-next.slick-arrow {
+    left: auto;
+    right: 30px;
+}
+
+.banner-slider .slick-arrow:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    left: 4px;
+}
+
+.banner-slider .slick-next.slick-arrow:before {
+    transform: rotate(-135deg);
+    left: -4px;
+}
+
+.banner-slider .slick-arrow:hover {
+    background: #fff;
+}
+
+.hero-main{
+        width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-text h1{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+}
+.hero-text p{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 137.023%;
+        text-align: center;
+}
+.Attention{
+    width: 100%;
+}
+.Trade-title{
+    width: 100%;
+    padding: 65px 0;
+}
+.Trade-title h2{
+    color: #252525;
+        font-family: Libre Franklin;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 137.023%;
+        text-align: center;
+}
+.Trade-title p{
+    color: #252525;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 137.023%;
+        text-align: center;
+        padding-top: 8px;
+}
+.market-main{
+    width: 100%;
+    display: flex;
+    padding-bottom: 57px;
+    justify-content: space-between;
+}
+.market-left{
+    width: 50%;
+}
+.home-box a img{
+    width: 31px;
+    height: 31px;
+}
+.home-box a {
+    display: flex;
+    width: 58px;
+    height: 58px;
+    border: solid 2px #6abeda;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+.market-left h2{
+    color: #252525;
+        font-family: Libre Franklin;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 137.023%;
+        padding-bottom: 36px;
+        position: relative;
+}
+.market-left h2::after{
+    content: "";
+    width: 334px;
+    height: 3px;
+    left: 0;
+    top: 62px;
+    background-color: #1299C5;
+    position: absolute;
+}
+.market-left p{
+    color: #252525;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 137.023%;
+        max-width: 510px;
+}
+.market-img{
+    width: 50%;
+}
+.market-img img{
+    width: 100%;
+}
+.project{
+    width: 100%;
+    background-color: #F6F6F6;
+    padding-top: 77px;
+    padding-bottom: 68px;
+}
+.project-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.project-img{
+    width: 50%;
+}
+.project-img img{
+    width: 100%;
+}
+.project-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+}
+.offer-img a img{
+    width: 32px;
+    height: 32px;
+}
+.offer-img a{
+    display: flex;
+        width: 58px;
+        height: 58px;
+        border: solid 2px #6abeda;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 9px;
+}
+.project-right h2{
+    color: #252525;
+        font-family: Libre Franklin;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 137.023%;
+        padding-bottom: 36px;
+        position: relative;
+}
+.project-right h2::after{
+            content: "";
+            width: 212px;
+            height: 3px;
+            left: 0;
+            top: 62px;
+            background-color: #1299C5;
+            position: absolute;
+}
+
+.project-right p{
+    color: #252525;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 137.023%;
+        max-width: 515px;
+}
+.card-items{
+    width: 100%;
+    padding-top: 101px;
+    padding-bottom: 85px;
+}
+.sales-card-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sale-img a img{
+    width: 33px;
+    height: 33px;
+}
+.sale-img a{
+    display: flex;
+        width: 58px;
+        height: 58px;
+        border: solid 2px #6abeda;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 9px;
+}
+.sale-card{
+    width: 50%;
+}
+.sale-card h2{
+    color: #252525;
+        font-family: Libre Franklin;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 137.023%;
+        padding-bottom: 36px;
+        position: relative;
+}
+.sale-card h2::after {
+    content: "";
+    width: 328px;
+    height: 3px;
+    left: 0;
+    top: 62px;
+    background-color: #1299C5;
+    position: absolute;
+}
+.sale-card p{
+    color: #252525;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 137.023%;
+        max-width: 510px;
+}
+.sale-img-right{
+    width: 50%;
+}
+.sale-img-right img{
+    width: 100%;
+}
+.property {
+    width: 100%;
+    position: relative;
+    background-image: url(../images/bg-img.png);
+    padding: 70px 0;
+    background-attachment: fixed;
+}
+
+.property-main {
+    width: 100%;
+   /* position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;*/
+}
+.property-wrapper{
+        display: flex;
+            align-items: center;
+            width: 100%;
+}
+.property-wrapper .information-text {
+    height: auto;
+    padding: 72px 35px;
+    max-width: 100%;
+    width: 55%;
+    background: rgba(218, 154, 29, 0.8);
+}
+.information-text h2{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 127%;
+        padding-bottom: 6px;
+}
+.information-text p{
+    color: #FFF;
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 129.179%;
+        max-width: 490px;
+}
+.the-form-main {
+    background-color: #FFFF;
+    border-radius: 20px;
+    padding: 35px 39px 45px 39px;
+    position: static;
+    transform: inherit;
+    max-width: 100%;
+    width: 45%;
+}
+
+.form-title {
+    padding-bottom: 28px;
+}
+
+.form-title h2 {
+    color: #252525;
+    font-family: Libre Franklin;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 137.023%;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+.form-block .form-row .form-box {
+    width: calc(50% - 10px);
+}   
+.form-box label {
+    color: #252525;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 137.023%;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.form-box input {
+    height: 47px;
+    border-radius: 55px;
+    border: 1px solid #D9D9D9;
+    background: rgba(244, 244, 244, 0.47);
+    padding: 14px 20px;
+    width: 100%;
+}
+
+.form-row-email {
+    width: 100%;
+    padding-top: 14px;
+}
+
+.form-row-email label {
+    color: #252525;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 137.023%;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.form-row-email input {
+    height: 47px;
+    border-radius: 55px;
+    border: 1px solid #D9D9D9;
+    background: rgba(244, 244, 244, 0.47);
+    padding: 14px 20px;
+    width: 100%;
+}
+
+.form-row-message {
+    width: 100%;
+    padding-top: 14px;
+}
+
+.form-row-message label {
+    color: #252525;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 137.023%;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.form-row-message textarea {
+    height: 84px;
+    border-radius: 16px;
+    border: 1px solid #D9D9D9;
+    background: rgba(244, 244, 244, 0.47);
+    padding: 14px 20px;
+    width: 100%;
+    resize: none;
+    color: #252525;
+    font-family: Libre Franklin;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 137.023%
+}
+
+.form-row-send {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.form-row-send button {
+    color: #FFF;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    border-radius: 70px;
+    background: var(--1299-c-5, #1299C5);
+    padding: 0px 30px;
+    width: 100%;
+    display: block;
+}
+.query{
+    padding-bottom: 85px;
+        padding-top: 70px;
+}
+.query .container-fluid {
+    max-width: 980px;
+}
+.query .row{
+    margin: 0 -15px;
+}
+.query-title{
+    padding-bottom: 27px;
+}
+.query-title h2{
+    color: #252525;
+        font-family: Libre Franklin;
+        font-size: 38px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 137.023%;
+}
+.any-slider {
+    width: 100%;
+}
+
+.any-slider .slick-arrow {
+    display: none;
+}
+.any-slider .slick-prev{
+    display: none !important;
+}
+
+.any-slider .slick-next {
+display: none !important;
+}
+.any-slider .slick-dots li button::before {
+    width: 8px;
+    height: 8px;
+    content: "";
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.col-service{
+    width: 33.33%;
+    padding: 0px 13px;
+}
+.service{
+    padding: 30px 0px;
+    border-radius: 20px;
+    border: 2px solid #DDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box-img a{
+    display: flex;
+    width: 89px;
+    height: 89px;
+    border: 2px solid #1299C5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.service h4{
+    color: #252525;
+        font-family: Libre Franklin;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 137.023%;
+        padding-top: 22px;
+}
+.impression{
+    width: 100%;
+    background-image: url(../images/content-img.png);
+    padding: 80px 0;
+    background-attachment: fixed;
+}
+/*.impression-bg img{
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+}*/
+.impression-main {
+    width: 100%;
+ /*   position: absolute;
+    left: -1px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;*/
+}
+.solid-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.solid-left h2{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 40px;
+        font-weight: 350;
+        line-height: 127%;
+        padding-bottom: 12px;
+}
+.solid-left p{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+}
+.solid-btn a{
+    color: #FFF;
+        text-align: center;
+        font-family: Libre Franklin;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 70px;
+            background: #1299C5;
+            padding: 17px 44px;
+}
+.footer{
+    width: 100%;
+}
+.footer-logo{
+    padding-top: 53px;
+    padding-bottom: 60px;
+    background: #000;
+    border-bottom: 2px solid #8B8B8B;
+}
+.plum-logo a img{
+    width: 262px;
+}
+.footer-information{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #000;
+    border-bottom: 2px solid #8B8B8B;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu{
+    width: 25%;
+    padding: 0px 15px;
+}
+.footer-menu h2{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+}
+.navigation-footer ul{
+    align-items: center;
+}
+.navigation-footer ul li{
+    padding-top: 12px;
+}
+.navigation-footer ul li a{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+}
+.footer-contact h2{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        padding-bottom: 12px;
+}
+.footer-contact a{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+      
+}
+.footer-contact {
+    width: 25%;
+    padding: 0px 15px;
+}
+.footer-contact ul{
+    display: flex;
+        margin-top: 12px;
+}
+.footer-contact ul li a{
+    color: #FFF;
+    border-radius: 56px;
+        border: 1px solid #FFF;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 8px;
+      
+}
+.footer-contact h4 {
+    color: #FFF;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.language-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.l-language{
+    background-color: #FFF;
+    border-radius: 62px;
+    width: calc(50% - 10px);
+    display: flex;
+    align-items: center;
+    height: 35px;
+    padding: 6px 15px;
+}
+.l-language a img{
+    width: 22px;
+    height: 22px;
+    border-radius: 62px;
+}
+.l-language p{
+    color: #000;
+        text-align: center;
+        font-family: Libre Franklin;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        padding-left: 5px;
+}
+.footer-any-logo{
+    padding-top: 70px;
+}
+.footer-any-logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-any-logo ul li a img{
+    width: auto;
+}
+.footer-any-logo .slick-arrow{
+    background-color: rgb(83, 165, 236);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    z-index: 1;
+    border-radius: 24px;
+}
+.footer-any-logo .slick-next.slick-arrow{
+    left: auto;
+    right: 10px;
+}
+
+
+
+
+.footer-bottom{
+    padding: 26px 0;
+    background-color: #000;
+}
+.footer-bottom-text{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-text p{
+    color: #FFF;
+        font-family: Libre Franklin;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 134.523%;
+}
+.footer-bottom-text span{
+    margin: 0px 5px;
+}
+.toggle-bar{
+    display: none;
+}
+.search-bar{
+    display: none;
+}

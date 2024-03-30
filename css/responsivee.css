@@ -1,0 +1,742 @@
+@media screen and (max-width: 1599px) {
+    .footer-any-logo,
+        .footer-any-logo ul {
+            display: none;
+        }
+}
+@media screen and (max-width: 1365px) {
+    .navigation ul li a {
+        padding: 0 15px;
+    }
+    .search {
+        width: 250px;
+    }
+    .footer-menu{
+        width: auto;
+    }
+    .footer-contact{
+        width: auto;
+    }
+    .Trade-title h2, .market-left h2, .project-right h2, .sale-card h2, .query-title h2 {
+        font-size: 32px;
+    }
+    .market-left h2, .project-right h2, .sale-card h2{
+        padding-bottom: 10px;
+    }
+
+    .solid-left h2 {
+        font-size: 34px;
+    }
+    .solid-left p {
+        font-size: 18px;
+    }
+    .banner-slider .slick-arrow {
+        width: 40px;
+        height: 40px;
+    }
+    .banner-slider .slick-arrow:before {
+        width: 10px;
+        height: 10px;
+    }
+.Trade-title {
+    width: 100%;
+    padding: 50px 0;
+}
+.Trade-title p{
+    padding-top: 5px;
+}
+.market-left h2::after{
+    width: 276px;
+    top: 44px;
+}
+.project-right h2::after {
+    width: 182px;
+    top: 44px;
+}
+.sale-card h2::after {
+    width: 280px;
+    top: 44px;
+}
+.information-text h2{
+    font-size: 34px;
+}
+.property-wrapper .information-text{
+    padding: 50px 35px;
+}
+.footer-logo{
+    padding: 50px 0;
+}
+.plum-logo a img {
+    width: 200px;
+}  
+}
+
+
+
+@media screen and (max-width: 1199px) {
+.toggle-bar{
+    position: absolute;
+    right: 15px;
+    top: 32px;
+    background: none;
+    display: block;
+    color: #FFFF;
+    font-size: 24px;
+}
+.navigation ul{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 90px;
+    background-color: cadetblue;
+    width: 50%;
+    z-index: 11;
+}
+.navigation ul li{
+    padding-top: 5px;
+}
+.navigation ul li:last-child{
+    padding-bottom: 5px;
+}
+.navigation ul li a {
+    padding: 0 10px;
+}
+.icons{
+    padding-right: 36px;
+}
+.Trade-title{
+    padding: 40px 0;
+}
+.Trade-title h2, .market-left h2, .project-right h2, .sale-card h2, .query-title h2 {
+    font-size: 28px;
+}
+.Trade-title p{
+    font-size: 14px;
+}
+.home-box a{
+    width: 50px;
+    height: 50px;
+}
+.home-box a img {
+    width: 28px;
+    height: 28px;
+}
+.market-left p{
+    font-size: 14px;
+    max-width: 448px;
+}
+.offer-img a{
+    width: 50px;
+    height: 50px;
+}
+.offer-img a img {
+    width: 28px;
+    height: 28px;
+}
+.project{
+    padding: 60px 0;
+}
+.project-right{
+    padding-left: 30px;
+}
+.project-right p{
+    font-size: 14px;
+}
+.card-items{
+    padding: 60px 0;
+}
+.sale-img a{
+    width: 50px;
+    height: 50px;
+}
+.sale-img a img {
+    width: 30px;
+    height: 30px;
+}
+.market-left h2::after {
+    width: 244px;
+    top: 40px;
+}
+.project-right h2::after {
+    width: 160px;
+    top: 40px;
+}
+.sale-card h2::after {
+    width: 242px;
+    top: 40px;
+}.query .container-fluid {
+    max-width: 700px;
+}
+.service h4{
+    font-size: 16px;
+}
+.sale-card p{
+    font-size: 14px;
+    max-width: 448px;
+}
+.information-text h2{
+    font-size: 32px;
+}
+.property-wrapper .information-text{
+    padding: 50px 35px;
+}
+.information-text p {
+    font-size: 14px;
+}
+.query{
+    padding: 50px;
+}
+.solid-left h2{
+    font-size: 30px;
+}
+.solid-left p{
+    font-size: 16px;
+}
+.solid-btn a{
+    padding: 14px 30px;
+    font-size: 14px;
+}
+.plum-logo a img {
+    width: 200px;
+}
+.footer-logo{
+    padding: 50px 0;
+}
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+.search input{
+    padding: 14px 24px;
+}
+.market-main{
+    flex-wrap: wrap;
+}
+.market-left h2, .project-right h2, .sale-card h2{
+    text-align: center;
+}
+.market-left p, .project-right p, .sale-card p{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+.home-box{
+    display: flex;
+    justify-content: center;
+}
+.offer-img{
+    display: flex;
+    justify-content: center;
+}
+.sale-img{
+    display: flex;
+    justify-content: center;
+}
+.project-right h2::after{
+    display: none;
+}
+.market-left h2::after{
+    display: none;
+}
+.sale-card h2::after{
+   display: none;
+}
+.market-left{
+    width: 100%;
+}
+.market-img{
+    width: 100%;
+}
+.market-img img{
+    height: 260px;
+    object-fit: cover;
+}
+.project-main{
+    flex-wrap: wrap;
+}
+.project-img{
+    width: 100%;
+    order: 1;
+}
+.project-img img{
+    height: 260px;
+    object-fit: cover;
+}
+.project-right{
+    width: 100%;
+    padding-left: 0;
+}
+.sales-card-main{
+    flex-wrap: wrap;
+}
+.sale-card{
+    width: 100%;
+}
+.sale-img-right{
+    width: 100%;
+}
+.sale-img-right img {
+    height: 260px;
+    object-fit: cover;
+}
+.query .container-fluid{
+    max-width: 500px;
+}
+.service h4{
+    font-size: 14px;
+}
+.solid-main{
+    flex-wrap: wrap;
+}
+.solid-left{
+    width: 100%;
+    text-align: center;
+}
+.solid-btn{
+    width: 100%;
+    padding-top: 42px;
+    text-align: center;
+}
+.solid-btn a{
+    padding: 12px 24px;
+}
+.plum-logo a img{
+    width: 170px;
+}
+.footer-logo{
+    padding: 40px 0;
+}
+.footer-main{
+    flex-wrap: wrap;
+}
+.navigation-footer ul li a{
+    font-size: 12px;
+}
+.property-wrapper .information-text{
+    padding: 40px 18px;
+    width: 50%;
+}
+.information-text h2{
+    font-size: 26px;
+}
+.the-form-main{
+    width: 50%;
+    padding: 35px 28px;
+}
+.form-title h2{
+    font-size: 26px;
+}
+.form-box input{
+    height: 36px;
+}
+.form-row-email input{
+    height: 36px;
+}
+.form-row-message textarea{
+    height: 70px;
+}
+.form-row-send button{
+    line-height: 35px;
+}
+.form-row-send{
+    padding-top: 10px;
+}
+.form-box label, .form-row-send button, .form-row-email label,.form-row-message label{
+    font-size: 14px;
+}
+.form-row-email{
+    padding-top: 8px;
+}
+.form-row-message{
+    padding-top: 8px;
+}
+.form-title{
+    padding-bottom: 16px;
+}
+.property-bg img{
+    height: 666 px;
+}
+.project{
+    padding: 45px 0;
+}
+.card-items{
+    padding: 45px 0;
+}
+.market-main{
+    padding-bottom: 45px;
+}
+.box-img img {
+    width: 34px; 
+    height: 34px;
+}
+.box-img a {
+   width: 70px; 
+   height: 70px;
+}
+.solid-left h2{
+    font-size: 28px;
+    padding-bottom: 8px;
+}
+.solid-left p{
+    font-size: 14px;
+}
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+.search-bar{
+    display: block;
+    position: absolute;
+    right: 52px;
+    top: 32px;
+    background: none;
+    font-size: 24px
+}
+.search{
+    position: absolute;
+    right: 15px;
+    z-index: 1;
+    top: 80px; 
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+    .search.open-modal {
+        visibility: visible;
+        opacity: 1;
+    }
+.header-logo img {
+    width: 115px;
+}   
+.icons{
+    display: none;
+}
+
+.search input{
+    padding: 14px 18px;
+}
+.hero-img img{
+    height: 265px;
+}
+.service{
+    padding: 20px 0;
+}
+.query{
+    padding: 50px 0;
+}
+.solid-left h2{
+    font-size: 26px;
+}
+.solid-btn{
+    padding-top: 30px;
+}
+.impression-bg img{
+    height: 200px;
+}
+.plum-logo a img{
+    width: 150px;
+}
+.footer-main{
+    text-align: left  ;
+}
+.footer-menu{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.footer-contact{
+    width: 100%;
+}
+.language-main{
+    justify-content: flex-start;
+}
+.l-language{
+    width: calc(35% - 10px);
+    margin-right: 15px;
+}
+.footer-bottom-text p{
+    font-size: 12px;
+}
+.property-wrapper{
+    flex-wrap: wrap;
+}
+.property-wrapper .information-text{
+    width: 100%;
+    padding: 20px 50px;
+    margin-bottom: 15px;
+}
+.the-form-main{
+    width: 100%;
+    padding: 25px 30px;
+}
+
+.footer-any-logo{
+    padding-top: 55px;
+}
+.footer-bottom{
+    padding: 18px 0;
+}
+.footer-contact ul li{
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+}
+.footer-contact h4{
+    padding-top: 12px;
+}
+.footer-contact h2{
+    padding-bottom: 6px;
+}
+.footer-contact ul li a{
+    width: 38px;
+    height: 38px;
+}
+/* .footer-contact ul li { */
+    /* margin-right: 16px; */
+/* } */
+.navigation-footer ul li{
+    padding-top: 6px;
+}
+.footer-menu{
+    padding: 0;
+    margin-bottom: 25px;
+}
+.footer-contact{
+    padding: 0;
+}
+.hero-text h1{
+  font-size: 28px;
+}
+.box-img a {
+    width: 50px;
+    height: 50px;
+}
+.box-img img {
+    width: 25px;
+    height: 25px;
+}
+.form-row{
+    display: block;
+}
+.form-block .form-row .form-box {
+    width: calc(100% - 10px);
+}
+.form-box input, .form-row-email input, .form-row-message textarea{
+    font-size: 12px;
+}
+.query .container-fluid {
+    max-width: 440px;
+}
+}
+
+
+
+
+@media screen and (max-width: 575px) {
+    .hero-img img {
+            height: 200px;
+        }
+.header-logo img {
+    width: 110px;
+}
+.search-bax{
+    padding: 13px 15px 9px 12px;
+}
+.search input {
+    padding: 14px 12px;
+}
+.search {
+    width: 184px;
+    margin-right: 35px;
+}
+.hero-text h1{
+    font-size: 22px;
+}
+.hero-text p{
+    font-size: 14px;
+}
+.banner-slider .slick-arrow {
+    width: 25px;
+    height: 25px;
+        left: 10px;
+}
+.banner-slider .slick-next.slick-arrow {
+    right: 10px;
+}
+.hero-text {
+    padding: 0 30px;
+}
+.Trade-title{
+    padding: 20px 0;
+}
+.Trade-title h2{
+    font-size: 18px;
+}
+.Trade-title p{
+    padding-top: 2px;
+}
+.home-box a img {
+    width: 22px;
+    height: 22px;
+}
+.home-box a {
+    width: 40px;
+    height: 40px;
+}
+.market-left h2{
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.market-left h2::after {  
+    width: 160px;
+    top: 26px;
+}
+.market-left p{
+    text-align: center;
+}
+.market-img img{
+    height: 220px;
+}
+.offer-img a img {
+    width: 22px;
+    height: 22px;
+}
+.offer-img a {
+    width: 40px;
+    height: 40px;
+}
+.project-right h2{
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.project-right h2::after {
+    width: 104px;
+    top: 28px;
+}
+.project-right p{
+    text-align: center;
+}
+.project-img img{
+    height: 220px;
+}
+.sale-img a img {
+    width: 22px;
+    height: 22px;
+}
+.sale-img a {
+    width: 40px;
+    height: 40px;
+}
+.sale-card h2{
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.sale-card h2::after {
+    width: 158px;
+    top: 26px;
+}
+.sale-card p{
+    text-align: center;
+}
+.sale-img-right img{
+    height: 220px;
+}
+.market-main{
+    padding-bottom: 35px;
+}
+.project {
+    padding: 35px 0;
+}
+.card-items{
+    padding: 35px 0;
+}
+.property-wrapper .information-text{
+    padding: 20px;
+}
+.property-bg img {
+    height: 100%;
+}
+.information-text h2 {
+    font-size: 18px;
+}
+.form-block .form-row .form-box {
+    width: calc(100% - 6px);
+}
+.the-form-main{
+    padding: 25px 15px;
+}
+.form-box input {
+    padding: 14px 15px;
+}
+.form-block .form-row .form-box {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.form-block .form-row .form-box:last-child {
+    margin-bottom: 0;
+}
+.form-box input{
+    padding: 14px 7px;
+}
+.property-main {
+    position: relative;
+    transform: inherit;
+    padding: 40px 0;
+}
+.property-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.solid-left h2{
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.solid-left p {
+    font-size: 11px;
+}
+.solid-btn a {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.plum-logo a img {
+    width: 135px;
+}
+.footer-logo {
+    padding: 35px 0;
+}
+.l-language {
+    width: calc(50% - 10px);
+    margin-right: 15px;
+}
+.footer-contact h4{
+    font-size: 14px;
+}
+.footer-bottom-text p {
+    font-size: 7px;
+}
+.footer-bottom-text span {
+    margin: 0px 2px;
+}
+.query-title h2 {
+    font-size: 18px;
+}
+.form-title {
+    padding-bottom: 10px;
+}
+.form-title h2 {
+    font-size: 18px;
+}
+.navigation ul{
+    top: 80px;
+}
+.query .container-fluid {
+    max-width: 300px;
+}
+}
+
