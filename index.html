@@ -357,18 +357,6 @@
                         
                     </div>
                 </div>
-                <div class="footer-any-logo">
-                    <ul>
-                        <li> <a href="#"> <img src="images/image 62.png"></a></li>
-                        <li> <a href="#"> <img src="images/image 59.png"></a></li>
-                        <li> <a href="#"> <img src="images/image 61.png"></a></li>
-                        <li> <a href="#"> <img src="images/image 58.png"></a></li>
-                        <li> <a href="#"> <img src="images/image 63.png"></a></li>
-                        <li> <a href="#"> <img src="images/image 51.png"></a></li>
-                        <li> <a href="#"> <img src="images/image 51.png"></a></li>
-
-                    </ul>
-                </div>
             </div>
         </div>
 
@@ -432,44 +420,7 @@ $window.scroll(function() {
             $(".toggle-bar").click(function(){
                 $(".navigation ul").slideToggle();
             });
-             $('.footer-any-logo ul').slick({
-                dots: true,
-                arrow: false,
-                infinite: true,
-                speed: 1000,
-                slidesToShow: 6,
-                slidesToScroll: 3,
-                responsive: [
-                     {
-                         breakpoint: 992,
-                         settings: {
-                             slidesToShow: 4,
-                             slidesToScroll: 2,
-                         },
-                     },
-                     {
-                         breakpoint: 768,
-                         settings: {
-                             slidesToShow: 3,
-                             slidesToScroll: 3,
-                         },
-                     },
-                     {
-                         breakpoint: 576,
-                         settings: {
-                             slidesToShow: 2,
-                             slidesToScroll: 1,
-                         },
-                     },
-                     {
-                        breakpoint: 320,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                        },
-                    },
-                 ],
-            });
+            
              $(".search-bar").click(function () {
                 $(".search").toggleClass('open-modal');
             });
